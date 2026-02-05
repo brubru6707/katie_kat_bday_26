@@ -1,7 +1,7 @@
 "use client";
 import { Canvas, useLoader } from '@react-three/fiber';
 import { OrbitControls, Center } from '@react-three/drei';
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
+import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
 import { useEffect } from 'react';
 
 export default function SceneObj({ objUrl }: { objUrl: string }) {
